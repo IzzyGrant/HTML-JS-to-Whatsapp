@@ -5,9 +5,15 @@ Este es un codigo bastante sencillo para enviar elementos seleccionados desde ht
 
 Para probar el funcionamiento solo descarga el codigo y modifica el archivo "script.js" e introduce tu numero registrado con WhatsApp, el archivo indicara donde modificar. Ejemplo:
 
-_var whats1 = "https://wa.me/TUNUMEROAQUI?text="_
-
+```
+var whats1 = "https://wa.me/TUNUMEROAQUI?text="
+```
 por
+```
+var whats1 = "https://wa.me/1234567890?text="
+```
+en el archivo _script.js_
 
-_var whats1 = "https://wa.me/1234567890?text="_
+No olvides ejecutarlo en modo servidor para correcto funcionamiento, puedes utilizar VisualCode Studio con la extension Live Server para apoyarte.
 
+Saludos :)
