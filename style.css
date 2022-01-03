@@ -1,0 +1,18 @@
+
+table{
+    border: solid;
+}
+input{
+    width: 50px;
+}
+input:invalid{
+    border: 3px solid red;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+.provbar1{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+}
